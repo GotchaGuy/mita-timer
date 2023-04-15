@@ -63,3 +63,13 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media screen and (max-width: 600px){
+  .counter-section {
+    padding: 0 10px;
+  }
+  .counter-section p:first-of-type {
+    width: 100%;
+  }
+}
